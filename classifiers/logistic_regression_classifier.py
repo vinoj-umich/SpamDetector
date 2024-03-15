@@ -41,7 +41,7 @@ def logistic_regression_classifier(x_train, x_test, y_train, y_test):
     return accuracy, precision, recall, conf_matrix
 
 
-def logistic_regression_classifier_with_grid_search(x_train, x_test, y_train, y_test):
+def logistic_regression_classifier_grid_search(x_train, x_test, y_train, y_test):
     """
     Perform grid search with logistic regression classifier.
 

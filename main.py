@@ -13,7 +13,7 @@ from classifiers.dummy_classifier import evaluate_stratified_dummy_classifier
 from classifiers.dummy_classifier import evaluate_most_frequent_dummy_classifier
 from classifiers.svc_classifier import svc_classification_score
 from classifiers.logistic_regression_classifier import logistic_regression_classifier
-from classifiers.logistic_regression_classifier import logistic_regression_classifier_with_grid_search
+from classifiers.logistic_regression_classifier import logistic_regression_classifier_grid_search
 
 from visualization import classifier_performance_bar_chart
 
@@ -47,7 +47,7 @@ acc_lrs, prec_lrs, rec_lrs, conf_matrix_lrs = logistic_regression_classifier(
                                                 X_train, X_test, y_train, y_test)
 
 # Logistic Regression Classifier with Grid Search
-acc_lrsgs, prec_lrsgs, rec_lrsgs, _ = logistic_regression_classifier_with_grid_search(
+acc_lrsgs, prec_lrsgs, rec_lrsgs, _ = logistic_regression_classifier_grid_search(
     X_train, X_test, y_train, y_test)
 # Create a dictionary to hold the results
 results = {
