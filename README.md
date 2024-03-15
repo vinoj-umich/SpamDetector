@@ -1,4 +1,4 @@
-# Spam Email Detection - evaluate different M/L classifiers
+# Spam Email Detection - Evaluate Different Machine Learning Classifiers
 
 ## Overview
 This project aims to evaluate different machine learning classifiers for the task of spam email detection. Spam email detection is a critical application in email filtering systems, where the objective is to automatically identify unsolicited, mass-produced messages containing irrelevant or inappropriate content from legitimate emails.
@@ -28,7 +28,7 @@ The results of the model evaluationare plotted to provide insights into the perf
 
 ### Metrics Evaluation
 
-![Metrics Evaluation](assets\classifier_performance.png)
+![Metrics Evaluation](assets/classifier_performance.png)
 
 
 ## Usage
@@ -36,7 +36,7 @@ To run the project:
 
 1. Clone this repository to your local machine.
 
-    git clone https://github.com/your-username/machine-learning-workflow.git
+    git clone https://github.com/vinoj-umich/SpamDetector.git
 
 2. Install the required dependencies listed in requirements.txt.
     
