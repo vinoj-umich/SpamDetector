@@ -1,4 +1,4 @@
-# Spam Email Detection - Evaluate Different Machine Learning Classifiers
+# Spam Email Detection - Evaluation of Different Machine Learning Classifiers
 
 ## Overview
 This project aims to evaluate different machine learning classifiers for the task of spam email detection. Spam email detection is a critical application in email filtering systems, where the objective is to automatically identify unsolicited, mass-produced messages containing irrelevant or inappropriate content from legitimate emails.
