@@ -6,7 +6,8 @@ import pandas as pd
 
 def clean_data(df):
     """
-    Clean the data by dropping rows with missing values and converting date column to datetime format.
+    Clean the data by dropping rows with missing values and 
+    converting date column to datetime format.
     
     Args:
     - df (DataFrame): The dataframe to be cleaned.
@@ -29,7 +30,6 @@ def load_data(csv_file):
     """
     df = pd.read_csv(csv_file)
     df = clean_data(df)
-    X = df.iloc[:, :-1]
+    x = df.iloc[:, :-1]
     y = df.iloc[:, -1]
-    return X, y
-
+    return x, y

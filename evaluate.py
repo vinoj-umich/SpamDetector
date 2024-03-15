@@ -2,7 +2,9 @@
 Module to evaluate model performance.
 """
 
-from sklearn.metrics import accuracy_score, precision_score, recall_score, confusion_matrix,precision_recall_curve, roc_curve
+from sklearn.metrics import accuracy_score, precision_score, recall_score
+from sklearn.metrics import confusion_matrix,precision_recall_curve, roc_curve
+
 
 
 def evaluate_model(pipeline, x_train, x_test, y_train, y_test):
