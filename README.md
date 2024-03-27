@@ -44,7 +44,7 @@ To run the project:
 
 3. Execute the main script main.py to perform data loading, preprocessing, model training, evaluation, and visualization.
 
-    python main.py
+    python main.py 'assets/spam.csv'
 
 ## Contributors
 - Vinoj Bethelli
